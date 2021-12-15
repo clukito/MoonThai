@@ -1,0 +1,430 @@
+.all {
+  font-family: "Noto Sans", "Trebuchet MS", "Lucida Grande", Arial, sans-serif;
+}
+
+#logo {
+  background-color: black;
+  display: block;
+  text-align: center;
+}
+
+#logo img {
+  max-width: 60%;
+  height: auto;
+  text-align: center;
+}
+
+.menu h1 {
+  border-bottom: solid;
+  text-align: center;
+  line-height: 2;
+  font-size: 210%;
+  padding-top: 35px;
+  margin: 0% 2%;
+}
+
+#appetizers {
+  padding-top: 5px;
+}
+
+.menu dt {
+  font-size: 130%;
+  line-height: 1.4;
+  margin: 2.5% 0% 0.2% 5%;
+  font-weight: bold;
+}
+
+.menu h3 {
+  font-size: 110%;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+  margin: 2.8% 2%;
+  padding-bottom: 2px;
+}
+
+.menu dd {
+  font-size: 110%;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0% 1% 1.2% 5%;
+  padding-bottom: 0px;
+}
+
+.menu .one {
+  background-color: #f8f0e7;
+  padding-bottom: 5%;
+}
+
+.one > h2 {
+  text-align: center;
+  color: rgb(150, 107, 50);
+  margin: 0px;
+  line-height: 1;
+  padding: 20px 0 0 0;
+}
+
+.menu .two {
+  background-color: #bfbdbd;
+  padding-bottom: 5%;
+}
+
+.image {
+  height: auto;
+  vertical-align: middle;
+  width: 30%;
+  margin: 4% 5% 4% 4%;
+  border-radius: 5%;
+  max-width: 40%;
+  float: right;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.vertical {
+  max-width: 25%;
+}
+.button a {
+  background-color: burlywood;
+  color: black;
+  padding: 14px 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.2s;
+  font-size: 80%;
+}
+
+.button a:hover {
+  color: white;
+  background-color: #b1936c;
+  transition-duration: 0.2s;
+}
+
+.footer {
+  padding: 0.4% 0px;
+  margin: 0.6% 0px;
+  background-color: #323232;
+  width: 100%;
+  color: white;
+  text-align: center;
+  clear: both;
+  line-height: 1.3;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+#gallery img {
+  max-width: 100%;
+  vertical-align: middle;
+  border-radius: 6%;
+}
+
+#gallery {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url(marble.jpeg);
+}
+
+.thumbnail:hover#lamb {
+  position: relative;
+  transform: scale(1.2);
+  left: 2%;
+  transition: 300ms;
+}
+
+.thumbnail:hover#param {
+  position: relative;
+  transform: scale(1.2);
+  transition: 300ms;
+}
+
+.thumbnail:hover#pad {
+  position: relative;
+  transform: scale(1.2);
+  right: 2%;
+  transition: 300ms;
+}
+
+#take-out {
+  background-color: rgb(0, 0, 0, 0.75);
+  color: white;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 3.7% 4%;
+}
+
+#take-out h1 {
+  font-size: 240%;
+}
+.hours {
+  color: black;
+  display: block;
+  height: auto;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 1.7% 0.3%;
+  background: #f8f0e7 url(../Images/marble.jpeg);
+}
+
+.hours h1 {
+  margin-bottom: 0px;
+  margin-top: 25px;
+  font-size: 200%;
+}
+
+.hours p,
+address {
+  line-height: 1.7;
+  font-size: 110%;
+  font-style: normal;
+  margin-top: 5px;
+}
+
+.hours a {
+  color: black;
+  text-decoration: none;
+}
+
+.hours a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  background-color: #f8f0e7;
+  padding: 10px;
+}
+
+.about h1 {
+  font-size: 240%;
+  text-align: center;
+  border-bottom: solid;
+  line-height: 2;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.about h2 {
+  text-align: center;
+  color: rgb(150, 107, 50);
+  margin-bottom: 0px;
+}
+
+.about #first {
+  background-color: black;
+  padding: 0px 30px;
+  margin: 0px 35px 15px 15px;
+}
+
+.about img {
+  box-shadow: 10px 10px 10px grey;
+  border-radius: 5%;
+}
+.about p {
+  font-size: 120%;
+}
+
+.about .words {
+  margin: 0px 30px 0px 30px;
+  line-height: 1.4;
+}
+
+.about .table {
+  margin-top: 45px;
+}
+
+#resto {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.big {
+  display: block;
+  max-width: 50%;
+  margin: 5% auto 2% auto;
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 6%;
+  display: block;
+}
+
+#fail {
+  text-align: center;
+  padding-top: 30px;
+}
+/* desktop */
+@media (min-width: 681px) {
+  #nobutton {
+    display: none;
+  }
+  #navcoll {
+    display: none;
+  }
+  .table {
+    display: table;
+    width: 100%;
+  }
+
+  .table-cell {
+    display: table-cell;
+    vertical-align: center;
+  }
+
+  .table-row {
+    display: table-row;
+  }
+
+  .dot {
+    border-right: 1px gray dotted;
+    padding-right: 3%;
+    padding-left: 2%;
+  }
+
+  .nodot {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #resto {
+    float: right;
+    clear: right;
+    max-width: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .about #first {
+    float: left;
+    clear: left;
+    max-width: 35%;
+    padding-left: 6%;
+    padding-right: 7%;
+  }
+
+  .about p {
+    font-size: 130%;
+    padding-top: 4%;
+  }
+  .big {
+    display: none;
+  }
+
+  .menu h1 {
+    font-size: 230%;
+  }
+
+  .menu dt {
+    font-size: 160%;
+  }
+
+  .menu h3 {
+    font-size: 130%;
+  }
+
+  .menu dd {
+    font-size: 130%;
+  }
+
+  .image {
+    margin: 4% 8% 4% 4%;
+  }
+
+  .banner {
+    color: white;
+    background-color: #16120d;
+    font-size: 120%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+  }
+
+  .banner li {
+    display: inline;
+    text-decoration: none;
+  }
+
+  .banner a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 5%;
+    margin: 0;
+  }
+
+  .banner a:hover {
+    background-color: #4c4c4c;
+  }
+
+  #phone2 {
+    position: absolute;
+    top: 37px;
+    right: 50px;
+    font-size: 120%;
+  }
+
+  #phone2 a {
+    color: white;
+    text-decoration: none;
+  }
+
+  #phone2 a:hover {
+    text-decoration: underline;
+    background-color: none;
+  }
+}
+
+/* mobile */
+@media (max-width: 680px) {
+  #nobutton2 {
+    display: none;
+  }
+  #nav {
+    display: none;
+  }
+  .right {
+    font-size: 90%;
+  }
+
+  .nodot {
+    padding-top: 1%;
+  }
+
+  .hours h2 {
+    font-size: 180%;
+    margin: 3% 2% 0% 2%;
+  }
+
+  #resto,
+  #first {
+    max-width: 90%;
+  }
+
+  .about #first {
+    max-width: 70%;
+    padding: 0 8%;
+    margin-left: 6%;
+    text-align: center;
+  }
+  .about h1 {
+    line-height: 1.2;
+    padding: 15px 0;
+  }
+
+  .image {
+    display: none;
+  }
+}
